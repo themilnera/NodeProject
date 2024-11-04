@@ -6,4 +6,8 @@ const ttechFunction = (req, res) => {
     res.send("Ttech is awesome");
 };
 
-module.exports = { helloFunction, ttechFunction };
+const newFunction = (req, res) => {
+    res.send(`<h1>I am sleepy</h1>`);
+};
+
+module.exports = { helloFunction, ttechFunction, newFunction };
